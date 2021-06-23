@@ -1,0 +1,162 @@
+
+.navbar .navbar-collapse{
+
+    flex-direction: row-reverse;
+}
+.navbar .nav-item{
+    padding: 0 0 0 15px ;
+    font-size: larger;
+    font-weight: 500;
+}
+.introduction{
+    padding-bottom: 5rem;
+}
+.intro_title{
+    font-size: 60px;
+}
+.title{
+    font-size: 50px;
+    color: rgb(109, 109, 109);
+}
+ p{
+    font-size: 1.4rem; ;
+}
+.card_section .card_title i{
+    display: block;
+}
+.section_space{
+    margin:4rem 0;
+}
+.card_section p{
+    font-size: 1.1rem;
+}
+
+.image_testimonial img{
+    width: 100%;
+    height: auto;
+}
+.quote_section{
+    text-align: center;
+    justify-content: center;
+}
+.quote_section p {
+    font-style: italic;
+    font-size: 1.2rem;
+}
+.quote_section p::before{
+    content: open-quote;
+}
+.quote_section p::after{
+    content: close-quote;
+}
+.carousel a i:hover{
+    color: white;
+}
+.our_clients{
+    max-height: 100px;
+    max-width: auto;
+}
+.map{
+    margin-bottom: 0;
+}
+footer{
+    background-color: #333;
+    color: white;
+    padding-top: 3rem;
+}
+.footer-logo{
+    color: white;
+}
+footer ul{
+    padding: 0;
+    list-style: none;
+}
+footer i{
+    margin-right: 15px;
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.social li{
+    display: inline;
+}
+.social .facebook{
+    background-color :#3B5998
+}
+.social .twitter{
+    background-color:#00ACEE
+}
+.social .linkedin{
+    background-color :#0e76a8
+}
+.foot_title h3{
+    color: rgb(209, 209, 209);
+}
+.footer-bottom{
+    padding: 5px 0;
+    background-color: black;
+}
+
+.btn_form{
+    border-radius: 25px;
+}
+
+input[type="text"],
+input[type="email"],
+.textarea{
+    height: 56px;
+    background-color:rgb(241, 241, 241);
+    border-color: rgb(241, 241, 241);
+}
+.textarea{
+    resize: none;
+}
+.about p{
+    font-size: 1.2rem;
+}
+.process i{
+    display: inline-block;
+    color: coral;
+    width: auto;
+    height: 70px;
+    width: 70px;
+    
+    box-shadow: 5px 5px 5px 2px grey;
+    
+    text-align: center;
+    border-radius: 100%;
+    padding-top: 15px;
+}
+.btn_hire{
+    width: 500px;
+    border-radius: 25px;
+}
+.btn_hire:hover{
+    background-color: coral;
+}
+.team_image img{
+    height: 600px;
+    width: 100%;
+}
+.team img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+.team p{
+    font-size: 1.2rem;
+}
+ .team .programmer{
+     height: 150px;
+     width: 150px;
+     border-radius: 50%;   
+ }
+ .view{
+     font-size: 20px;
+     text-decoration: none;
+     
+ }
